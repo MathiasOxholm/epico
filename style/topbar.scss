@@ -1,0 +1,40 @@
+.topBar {
+  width: 100%;
+  height: 7vh;
+  top:0;
+  position: fixed;
+  display: flex;
+  justify-content: center;
+  background: $red;
+  z-index: 100;
+}
+.topBar h1 {
+  font-size: 3.5em;
+  color: white;
+}
+.topicon {
+  color: white;
+  font-size: 4em;
+}
+.topBarWrapper {
+  display: flex;
+  width: 85%;
+  height: 100%;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* TOP BAR */
+.topBar h1 {
+  font-size: 3.5em;
+  color: white;
+}
+.topicon {
+  color: white;
+  font-size: 4em;
+}
+.TopTransparent {
+  position: absolute;
+  background: none;
+}
+/* /TOP BAR */

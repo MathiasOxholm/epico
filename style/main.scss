@@ -1,0 +1,23 @@
+@import 'variables';
+@import 'nav';
+@import "topbar";
+@import "jobs";
+@import "job";
+@import "profile";
+
+* {
+  padding: 0;
+  margin: 0;
+  font-family: 'Roboto', sans-serif;
+  letter-spacing: 1px;
+}
+body {
+  min-height: 100vh;
+  margin-bottom: 25%;
+}
+a {
+  text-decoration: none;
+}
+a:hover {
+  cursor: pointer !important;
+}

@@ -1,0 +1,131 @@
+/* VARIABLES */
+$dark-gray: #595959;
+$light-gray: #D1D1D1;
+$red: #a7183f;
+/* /VARIABLES */
+
+/* HEADER */
+.jobImage {
+  height: 30vh;
+  background: $dark-gray;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  padding-bottom: 12%;
+  box-sizing: border-box;
+  font-size: 2.3em;
+  color: white;
+  // background: $dark-gray;
+  background: url(img/web.jpg) 100% center;
+  background-size: cover !important;
+}
+.jobTitle {
+  width: 85%;
+}
+/* /HEADER */
+
+/* CONTENT */
+section#content {
+  position: relative;
+
+  .CTA {
+    display: block;
+    margin: 0 auto;
+    width:50%;
+    height: 120px;
+    line-height: 120px;
+    margin-top:-60px;
+    position: relative;
+    text-align: center;
+    background: $red;
+    color: white;
+    font-size: 2.5em;
+    border-radius: 150px;
+  }
+}
+
+.jobWrapper {
+  display: flex;
+  width: 85%;
+  margin: 0 auto;
+  justify-content: center;
+  align-items: center;
+  padding: 8% 0 8% 0;
+  position: relative;
+}
+.jobThree {
+  width: 33.33%;
+  text-align: center;
+  font-size: 2em;
+  padding: 0;
+  color: $dark-gray;
+
+    h2 {
+      font-weight: bold;
+    }
+    h3 {
+      font-weight: 300;
+    }
+}
+.jobDesc {
+  padding: 8% 0 4% 0;
+  width: 85%;
+  margin: 0 auto;
+}
+/* /CONTENT */
+
+/* CONTACT PERSON */
+.contactPerson {
+  width: 85%;
+  height: 20vh;
+  margin: 0 auto;
+  margin-bottom: 35%;
+
+  .contactLeft{
+    width: 40%;
+    height: 20vh !important;
+    background: url(img/gho.jpg) center no-repeat;
+    background-size: cover;
+    float: left;
+  }
+  .contactRight {
+    width: 60%;
+    height: 20vh;
+    float: right;
+  }
+  .contactTitle {
+    width: 100%;
+    background: $red;
+    color: white;
+    padding: 4%;
+    font-size: 2em;
+    box-sizing: border-box;
+  }
+  h3 {
+    padding: 4% 4% 0% 4%;
+    font-size: 2.5em;
+  }
+  p {
+    padding: 4%;
+    font-size: 1.5em;
+  }
+  .contactCTA {
+    a {
+      width: 50%;
+      float: left;
+      background: green;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      font-size: 1.5em;
+    }
+    .lnr {
+      font-size: 3em;
+    }
+    #call {
+      float: right;
+    }
+  }
+}
+/* /CONTACT PERSON */

@@ -1,0 +1,59 @@
+.jobs {
+  width: 85%;
+  margin: 0 auto;
+  margin-top: 20%;
+}
+
+.job {
+  width: 100%;
+  margin-bottom: 10%;
+  background: whitesmoke;
+  border: 1px solid $light-gray;
+}
+.jobTop {
+  height: 20vh;
+  width: 100%;
+  display: flex;
+  align-items: flex-end;
+  padding: 6%;
+  box-sizing: border-box;
+  font-size: 2.3em;
+  font-weight: 300;
+  color: white;
+  background: $dark-gray;
+  background: url(img/web.jpg) 100% center;
+  background-size: cover !important;
+}
+.jobWrapper {
+  display: flex;
+  width: 80%;
+  margin: 0 auto;
+  justify-content: center;
+  align-items: center;
+  padding: 8% 0 8% 0;
+  position: relative;
+}
+.jobThree {
+  width: 33.33%;
+  text-align: center;
+  font-size: 2em;
+  padding: 0;
+  color: $dark-gray;
+
+    h2 {
+      font-weight: bold;
+    }
+}
+
+.jobDesc {
+  padding: 6%;
+  font-size: 2.5em;
+  box-sizing: border-box;
+  color: $dark-gray;
+  font-weight: 300;
+}
+hr {
+  border: 2px solid $light-gray;
+  width: 50%;
+  margin: 0 auto;
+}

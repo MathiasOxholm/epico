@@ -1,0 +1,38 @@
+.profilePicture {
+  width: 100%;
+  height: 50vh;
+  display: block;
+  top: 0;
+  background: url(img/oxholm.jpg) 100% center;
+  background-size: cover !important;
+}
+.content {
+  width: 85%;
+  margin: 0 auto;
+}
+.profileContent {
+  padding-top: 5%;
+  width: 85%;
+  margin: 0 auto;
+  color: $dark-gray;
+}
+.pName {
+  text-align: center;
+  font-size: 4.5em;
+}
+.pTitle {
+  text-align: center;
+  font-size: 2.5em;
+  padding: 2.5% 0% 10% 0%;
+  font-weight: 300;
+}
+.pHeader {
+  font-size: 2.5em;
+  padding-bottom: 5%;
+  font-weight: bold;
+}
+.pParagraph {
+  line-height: 1.5;
+  padding-bottom: 5%;
+  font-weight: 300;
+}

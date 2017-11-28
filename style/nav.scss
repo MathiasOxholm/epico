@@ -1,0 +1,32 @@
+.IOSnav {
+  background: white;
+  border-top: 1px solid lightgray;
+  height: 9vh;
+  width: 100%;
+  position: fixed;
+  bottom: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.navWrapper {
+  width: 85%;
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.lnr {
+  width: 100px;
+  max-height: 100px;
+  color: $dark-gray;
+  display: flex;
+  align-items: flex-end;
+  font-size: 5em;
+}
+.lnr-user {
+  font-size: 4em;
+}
+.activeNav {
+  color: $red;
+}
